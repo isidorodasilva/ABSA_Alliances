@@ -1,0 +1,6 @@
+framework module Pods_ABSA_Alliances {
+  umbrella header "Pods-ABSA_Alliances-umbrella.h"
+
+  export *
+  module * { export * }
+}

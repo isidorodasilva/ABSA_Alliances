@@ -1,0 +1,6 @@
+framework module Pods_ABSA_AlliancesTests {
+  umbrella header "Pods-ABSA_AlliancesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
