@@ -24,6 +24,5 @@ class itemTableViewCell: UITableViewCell {
     @IBOutlet weak var photo: UIImageView!
     @IBOutlet weak var Title: UILabel!
     @IBOutlet weak var Description: UILabel!
-    @IBOutlet weak var Rating: UILabel!    
-
+    @IBOutlet weak var Rating: UILabel!
 }

@@ -12,14 +12,14 @@ class OnboardingViewController: UIPageViewController, UIPageViewControllerDataSo
     enum PageViews: String {
         case firstPV
         case secondPV
-        case thirdPV
+//        case thirdPV
         
 }
     
     fileprivate lazy var orderedViewController: [UIViewController] = {
         return [self.getViewController(withIdentifier: PageViews.firstPV.rawValue),
                 self.getViewController(withIdentifier: PageViews.secondPV.rawValue),
-                self.getViewController(withIdentifier: PageViews.thirdPV.rawValue),
+//                self.getViewController(withIdentifier: PageViews.thirdPV.rawValue),
                 ]
     }()
     

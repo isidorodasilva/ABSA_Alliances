@@ -1,14 +1,14 @@
 //
 //  AppDelegate.swift
-//  ABSA_Alliances
+//  DemoExpandingCollection
 //
-//  Created by Isidoro Pedro Da Silva Junior on 5/22/19.
-//  Copyright © 2019 Isidoro Pedro Da Silva Junior. All rights reserved.
+//  Created by Alex K. on 25/05/16.
+//  Copyright © 2016 Alex K. All rights reserved.
 //
 
 import UIKit
 import Firebase
-//import FirebaseMessaging
+import FirebaseMessaging
 import UserNotifications
 import FirebaseDatabase
 
@@ -103,3 +103,4 @@ extension AppDelegate {
         ]
     }
 }
+
