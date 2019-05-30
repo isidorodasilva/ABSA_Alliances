@@ -100,8 +100,8 @@ class DesignTableTableViewController: UITableViewController {
         cell.Description.text = item.Description
         cell.Rating.text = item.email
 //        cell.photo.image = item.Photo
-        cell.imageView?.image = UIImage(named: "absalogo")
-        cell.imageView?.contentMode = .scaleAspectFill
+//        cell.imageView?.image = UIImage(named: "absalogo")
+//        cell.imageView?.contentMode = .scaleAspectFill
         
 //        if let photo = item.Photo{
 //            let url = NSURL(string: photo)
