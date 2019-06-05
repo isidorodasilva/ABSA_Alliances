@@ -20,7 +20,11 @@ class DetalhesViewController: UIViewController {
     var locationdetalheProduto = ""
     var descriptiondetalheProduto = ""
     var linkdetalhesProducto = ""
+    var photodetalheProduto = ""
     
+    
+    
+    @IBOutlet weak var photodetalhe: UIImageView!
     @IBOutlet weak var titulodetalhe: UILabel!
     @IBOutlet weak var ratingdetalhe: UILabel!
     @IBOutlet weak var telefonedetalhe: UILabel!
@@ -39,18 +43,13 @@ class DetalhesViewController: UIViewController {
         emaildetalhe.text = emaildetalheProduto
         locationdetalhe.text = locationdetalheProduto
         descriptiondetalhe.text = descriptiondetalheProduto
+        
+        if let url = NSURL(string: photodetalheProduto) {
+            if let data = NSData (contentsOf: url as URL) {
+                photodetalhe.contentMode = UIView.ContentMode.scaleAspectFit
+                photodetalhe.image = UIImage(data: data as Data)
+            }
+        }
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

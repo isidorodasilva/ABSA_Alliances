@@ -18,7 +18,6 @@
         <!--Design Table Table View Controller-->
         <scene sceneID="qQp-Rz-V2R">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FM4-Vr-nsB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController storyboardIdentifier="DesignTableViewController" id="nce-jN-xNc" customClass="DesignTableTableViewController" customModule="ABSA_Alliances" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="LMz-i5-QhK">
                         <rect key="frame" x="0.0" y="0.0" width="382" height="786"/>
@@ -94,6 +93,7 @@
                         <segue destination="OCc-PD-YHb" kind="show" identifier="exemplo" id="xHV-Ln-ZIb"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FM4-Vr-nsB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="72.463768115942031" y="402.45535714285711"/>
         </scene>
@@ -258,6 +258,7 @@
                         <outlet property="emaildetalhe" destination="Xxp-t4-HWA" id="bc2-Kq-oHc"/>
                         <outlet property="linkdetalhes" destination="w5h-bK-ivn" id="RPZ-Dh-KbS"/>
                         <outlet property="locationdetalhe" destination="n5V-fa-T3r" id="dQu-UR-X7H"/>
+                        <outlet property="photodetalhe" destination="xJ3-q2-hny" id="ncd-L1-XOv"/>
                         <outlet property="ratingdetalhe" destination="WoK-eb-RDe" id="SqH-lG-TbX"/>
                         <outlet property="telefonedetalhe" destination="llr-lS-jih" id="F2i-9C-3nC"/>
                         <outlet property="titulodetalhe" destination="pB9-NF-Be6" id="Qsj-2S-LHT"/>
